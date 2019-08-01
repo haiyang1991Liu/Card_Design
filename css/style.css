@@ -1,0 +1,71 @@
+/* @import "./css/variable.css"; */
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-wrap h6 {
+  color: greenyellow;
+}
+.card-wrap .travel-card {
+  width: 550px;
+  height: 100%;
+  /* border: 1px solid black; */
+  position: relative;
+  overflow: hidden;
+}
+.card-wrap .travel-card__tag {
+  position: absolute;
+  width: 10%;
+  top: 5px;
+  right: 20px;
+  padding: 10px;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.card-wrap .travel-card__whole {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  background-image: url("../img/bg-2.png");
+  background-size: 100% 100%;
+}
+.card-wrap .travel-card__whole .travel-card__main {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  display: flex;
+  /* border: 1px solid white; */
+}
+.card-wrap .travel-card__whole .travel-card__main .travel-card__content {
+  color: white;
+}
+.card-wrap .travel-card__whole .travel-card__main .travel-card__content p {
+  font-size: 30px;
+}
+.card-wrap .travel-card__whole .travel-card__main .travel-card__button {
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  height: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25%;
+}
+
+/* .img__mask{
+    background:linear-gradient(rgba(0,0,0.0,1) 0%,rgba(0,0,0,0) 100%);
+    width: 100%;
+    height:100%;
+    background-size:100% 100%;
+    z-index: 11;
+} */
+
+/*# sourceMappingURL=style.css.map */
